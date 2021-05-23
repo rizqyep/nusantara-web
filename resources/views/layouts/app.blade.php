@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Nusantara Essential Oil</title>
-    <link rel="shortcut icon" href="{{asset('/img/logo.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('/img/logo.png') }}" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -23,8 +23,8 @@
     <nav class="navbar navbar-expand-lg navbar-light shadow-none">
 
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="{{url('/')}}">
-            <img src="{{asset('/img/logo.png')}}" height=80 alt="">
+        <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('/img/logo.png') }}" height=80 alt="">
         </a>
 
         <!-- Collapse button -->
@@ -38,18 +38,22 @@
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/')}}">Home
+                    <a class="nav-link" href="{{ url('/') }}">Home
 
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/#about-us')}}">About Us</a>
+                    <a class="nav-link" href="{{ url('/#about-us') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/products')}}">Products</a>
+                    <a class="nav-link" href="{{ url('/products') }}">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('/contactus')}}">Contact Us</a>
+                    <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
                 </li>
 
             </ul>
