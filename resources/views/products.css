@@ -1,0 +1,14 @@
+@media screen and (max-width : 599px){
+    .product-image{
+        height : 140px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width : 600px){
+      .product-image{
+        height : 220px;
+     
+        object-fit: cover;
+    }
+}

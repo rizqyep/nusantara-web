@@ -40,7 +40,7 @@ Home
     <h1 class="text-center font-weight-bold about-us-title">About Us</h1>
     <hr class="about-us-dash text-center">
 
-    <p class="text-muted text-center">
+    <p class="text-muted text-center mb-5">
         Nusantara Essential Oil is one of the leading producers of essential oil raw materials in Indonesia.
         We produce patchouli oil and lemongrass oil. Nusantara Essential Oil is part of the company PT. Bima Marga
         Nusantara with a very diverse customer base.
@@ -56,6 +56,11 @@ Home
         <br>
         Ultimately, it is our top priority to meet our customer's satisfaction and expectations.
     </p>
+
+
+    <div class="embed-responsive embed-responsive-16by9 mx-auto">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/810aNvhon4w" allowfullscreen></iframe>
+    </div>
 
 </div>
 
@@ -115,7 +120,7 @@ Home
             <h5 class="font-weight-bold text-center mt-3">
                 Huzairi Sufriadi
             </h5>
-            <p class="text-muted text-center">Content Manager</p>
+            <p class="text-muted text-center">Relationship Manager</p>
         </div>
         <div class="col-md-4 mb-5 col-12">
             <div class="d-flex justify-content-center">

@@ -45,6 +45,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('/#about-us')}}">About Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/products')}}">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/contactus')}}">Contact Us</a>
+                </li>
+
             </ul>
             <!-- Links -->
 
